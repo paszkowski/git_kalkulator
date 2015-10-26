@@ -14,7 +14,6 @@ public class Prostokat extends obliczenia {
 	@Override
 	public void pole() {
 		// TODO Auto-generated method stub
-		System.out.println("kek xD");
 		double pole = bokA * bokB;
 		System.out.println("Pole prostokata wynosi: " + pole);
 		
@@ -30,7 +29,6 @@ public class Prostokat extends obliczenia {
 		this.bokA = bokA;
 	}
 
-
 	public int getBokB() {
 		return bokB;
 	}
@@ -38,6 +36,10 @@ public class Prostokat extends obliczenia {
 
 	public void setBokB(int bokB) {
 		this.bokB = bokB;
+	}
+	
+	public void Napis() {
+		System.out.println("Im a slut for github");
 	}
 	
 	
